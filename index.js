@@ -10,7 +10,7 @@ const flavorsCounterObj = {};
 flavorsArray.forEach((flavor) => {
     flavorsCounterObj[flavor]? flavorsCounterObj[flavor]++ : flavorsCounterObj[flavor] = 1;
 });
-
+//test
 console.table(flavorsCounterObj);
 // convert the object into an array and join it
 //const keysFlavorArray = Object.keys(flavorsCounterObj);
